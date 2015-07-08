@@ -4,21 +4,20 @@
 		<title>Sinapsis</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width" initial-scale="1">
+		<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/style.css">
 	</head>
 	<body>
-		<header>
-			<h1>Explore with us!</h1>
-			<nav class="navigation-bar">
-					<ul>
-							<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-							<li><a href="{{site.baseurl}}/blitznews.html">Blitz News</a></li>
-							<li><a href="{{site.baseurl}}/contact.html">Contact</a></li>
-					</ul>
-			</nav>
-		</header>
-		{{content}}
-		<footer>
-			<p>@copy; | 2015 | Gema Buj</p>
-		</footer>
+		<container>
+			<header>
+				<h1>Explore with us!</h1>
+				{% include nav.html %}
+			</header>
+			{{content}}
+			<footer>
+				<h1>Explore with us!</h1>
+				{% include nav.html %}
+				<p>&copy; | 2015 | Gema Buj</p>
+			</footer>
+		</container>
 	</body>
 </html>
