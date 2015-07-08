@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Sinapsis</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1">
-    <!--link(rel="stylesheet", type="text/css", href="css/foundation.css")-->
-    <!--link(rel="stylesheet", type="text/css", href="foundation-icons/foundation-icons.css")-->
-    <!--link(rel="stylesheet", type="text/css", href="css/mystyle.css")-->
-  </head>
-  <body>
-  	{{content}}
-  </body>
+	<head>
+		<title>Sinapsis</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" initial-scale="1">
+	</head>
+	<body>
+		<header>
+			<h1>Explore with us!</h1>
+			<nav class="navigation-bar">
+					<ul>
+							<li><a href="{{site.baseurl}}/index.html">Home</a></li>
+							<li><a href="{{site.baseurl}}/blitznews.html">Blitz News</a></li>
+							<li><a href="{{site.baseurl}}/contact.html">Contact</a></li>
+					</ul>
+			</nav>
+		</header>
+		{{content}}
+	</body>
 </html>
