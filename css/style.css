@@ -9,8 +9,8 @@ html {
 .selected {
   background-color: #FA4623;
   color: #FAF828;
-  padding: 2px;
-  border-radius: 5px; }
+  padding: 5px;
+  border-radius: 3px; }
 
 .navigaton-bar ul {
   list-style-type: none;

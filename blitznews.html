@@ -8,19 +8,19 @@ layout: default
 <h1>Featured</h1>
 <ul>
 	{% for posting in site.categories.featured %}
-  <li>
-  	<a href="">{{posting.title}}</a>
-  	<p>{{posting.meta}}</p>
-  </li>
+	  <li>
+	  	<a href="{{site.baseurl}}{{posting.url}}">{{posting.title}}</a>
+	  	<p>{{posting.meta}}</p>
+	  </li>
   {% endfor %}
 </ul>
 
 <h1>Archives</h1>
 <ul>
 	{% for posting in site.categories.archives %}
-  <li>
-  	<a href="">{{posting.title}}</a>
-  	<p>{{posting.meta}}</p>
-  </li>
+	  <li>
+	  	<a href="{{site.baseurl}}{{posting.url}}">{{posting.title}}</a>
+	  	<p>{{posting.meta}}</p>
+	  </li>
   {% endfor %}
 </ul>
